@@ -24,7 +24,7 @@ let getMultiply = () => {
 
 getMultiply();
 
-let numberSum = (n) => {
+let numberSum = n => {
     let total = 0;
     for (let i = 1; i <= n; i++) {
         total += i;
@@ -35,7 +35,7 @@ let numberSum = (n) => {
 
 numberSum(5);
 
-let myString = (str) => {
+let myString = str => {
     for (let i = 0; i < str.length; i++) {
         console.log(str.charAt(i));
     }
@@ -56,3 +56,5 @@ let sumOfMultiples = () => {
 }
 
 sumOfMultiples();
+
+// Комментарий
